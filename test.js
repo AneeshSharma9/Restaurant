@@ -25,3 +25,18 @@ myFirstFunction3()
 
 myFirstFunction4 = () => console.log("hello java script 4")
 myFirstFunction4()
+
+//Creating a java object
+var p1 = {
+    name: 'Neil',
+    age : 18
+}
+
+var p2 = {
+    name: 'aneesh',
+    age : 18
+}
+
+var persons = [p1,p2]
+
+console.log(persons)
